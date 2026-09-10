@@ -1,0 +1,27 @@
+{
+  "name": "truemoi-example-nextjs",
+  "version": "1.0.0",
+  "description": "Truemoi OAuth 2.1 + identity verification example — Next.js App Router, PKCE, auth-guarded dashboard",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --port 3000",
+    "build": "next build",
+    "start": "next start --port 3000",
+    "typecheck": "tsc --noEmit",
+    "test": "vitest run"
+  },
+  "dependencies": {
+    "@truemoi/sdk": "^0.0.2",
+    "next": "16.2.1",
+    "react": "19.2.4",
+    "react-dom": "19.2.4",
+    "server-only": "^0.0.1"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "@types/react": "^19.0.0",
+    "@types/react-dom": "^19.0.0",
+    "typescript": "^5.7.0",
+    "vitest": "^3.0.0"
+  }
+}
